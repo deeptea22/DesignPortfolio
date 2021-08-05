@@ -1,0 +1,76 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="aboutstyle.css" />
+    <style>
+        @import url('http://fonts.cdnfonts.com/css/butler');
+    </style>
+    <link rel="icon" type="image/png" href="android-chrome-192x192.png" />
+    <title>Deepthi's Design Portfolio</title>
+    <!-- <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script> -->
+    <!-- <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Playfair+Display" /> -->
+</head>
+
+<body>
+    <div id="wrapper">
+        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle"><span class="dark-blue-text"><i
+                    class="fas fa-bars fa-1x"></i></span></a>
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li style="cursor: default;" class="sidebar-brand">
+                    Deepthi M
+                </li>
+                <li>
+                    <a href="index.html">Work</a>
+                </li>
+                <li>
+                    <a href="about.html"style="color: rgb(12, 226, 215);">About</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper" >
+            <div class="container-fluid" >
+                <div class="row" >
+                    
+                    <div class="coll col-lg-12">
+                        <div class="photo">
+                            <img src="farewell1.jpg" alt="picture of me!" style="border-radius: 50%;" width="45%"/>
+                        </div>
+                        <div class = "about">
+                            <h1 style="color: rgb(12, 226, 215);">Deepthi M</h1>
+                            <a href="mailto:deepthi.m.g.s@gmail.com" style="text-decoration: none; color:black"><h3>deepthi.m.g.s@gmail.com</h3></a>
+                            <h3>I am a Third Year Undergraduate student studying Bachelor of Engineering in Computer Science at Sathyabama Institute of Science and Technology, Chennai, India.
+                            <br><br><br>
+                            I bring an engineering perspective as well as an creative problem-solving approach to create products and experiences
+                            people love to use!
+                            </h3>
+                        </div>                        
+                    </div>    
+                    <br>
+                    <br>
+                    
+                    <h3 style="text-align: center;">FOLLOW ME AROUND</h3>
+                    <div class="links" style="text-align: center;">
+                    <a href="https://www.linkedin.com/in/deepthi-m22/" target="blank"><img src="777926_linkedin_business_communication_connection_network_icon.png"/></a>
+                    <a href="https://github.com/deeptea22" target="blank"><img src="6863745_github_media_social_icon.png"/></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+    <script>
+        document.querySelector("#menu-toggle").onclick = function (e) {
+            e.preventDefault();
+            document.querySelector("#wrapper").classList.toggle("toggled");
+        };
+    </script>
+</body>
+
+</html>
